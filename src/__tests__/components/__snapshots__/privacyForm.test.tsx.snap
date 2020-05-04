@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test tab panel component tests if matches with snapshot 1`] = `
+<DocumentFragment>
+  <form
+    autocomplete="off"
+    class="makeStyles-root-429"
+    data-testid="components/signUpPrivacyForm"
+    novalidate=""
+  >
+    <label
+      class="MuiFormControlLabel-root"
+    >
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-442 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary"
+        data-testid="components/signUpPrivacyForm/trayCheckbox"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <input
+            class="PrivateSwitchBase-input-445"
+            data-indeterminate="false"
+            name="trayProductUpdatesCheckbox"
+            type="checkbox"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </span>
+      <span
+        class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+      >
+        Receive updates about Tray.io product by email
+      </span>
+    </label>
+    <label
+      class="MuiFormControlLabel-root"
+    >
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-442 MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-checked-443 Mui-checked MuiIconButton-colorPrimary"
+        data-testid="components/signUpPrivacyForm/otherCheckbox"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <input
+            checked=""
+            class="PrivateSwitchBase-input-445"
+            data-indeterminate="false"
+            name="otherProductsUpdatesCheckbox"
+            type="checkbox"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </span>
+      <span
+        class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+      >
+        Receive communication by email for other products created by Tray.io team
+      </span>
+    </label>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      data-testid="components/constants/buttonPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        submit
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </form>
+</DocumentFragment>
+`;

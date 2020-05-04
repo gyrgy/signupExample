@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test tab panel component tests if matches with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-labelledby="full-width-tab-0"
+    class="MuiTypography-root MuiTypography-body1"
+    data-testid="components/constants/tabPanel"
+    hidden=""
+    id="full-width-tabpanel-0"
+    role="tabpanel"
+  />
+</DocumentFragment>
+`;

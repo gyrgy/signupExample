@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test tab panel component tests if matches with snapshot 1`] = `
+<DocumentFragment>
+  <form
+    autocomplete="off"
+    class="makeStyles-root-324"
+    data-testid="components/signUpUserForm"
+    novalidate=""
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      data-testid="components/signUpUserForm/nameField"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-error Mui-error MuiFormLabel-filled Mui-required Mui-required"
+        data-shrink="true"
+      >
+        name
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk Mui-error Mui-error"
+        >
+           *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="true"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          name="name"
+          required=""
+          type="text"
+          value="userNameFieldValue"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-383 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-385 PrivateNotchedOutline-legendNotched-386"
+          >
+            <span>
+              name *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-filled Mui-required"
+      >
+        This field is required and can contain only letters.
+      </p>
+    </div>
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      data-testid="components/signUpUserForm/roleField"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-error Mui-error MuiFormLabel-filled"
+        data-shrink="true"
+      >
+        role
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="true"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          name="role"
+          type="text"
+          value="userRoleFieldValue"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-383 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-385 PrivateNotchedOutline-legendNotched-386"
+          >
+            <span>
+              role
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-filled"
+      >
+        This field can contain only letters or you can leave it blank
+      </p>
+    </div>
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      data-testid="components/signUpUserForm/emailField"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-error Mui-error MuiFormLabel-filled Mui-required Mui-required"
+        data-shrink="true"
+      >
+        email
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk Mui-error Mui-error"
+        >
+           *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="true"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          name="email"
+          required=""
+          type="text"
+          value="userEmailFieldValue"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-383 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-385 PrivateNotchedOutline-legendNotched-386"
+          >
+            <span>
+              email *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-filled Mui-required"
+      >
+        Please provide a valid email address.
+      </p>
+    </div>
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      data-testid="components/signUpUserForm/passwordField"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-error Mui-error MuiFormLabel-filled Mui-required Mui-required"
+        data-shrink="true"
+      >
+        password
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk Mui-error Mui-error"
+        >
+           *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="true"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          name="password"
+          required=""
+          type="password"
+          value="userPasswordFieldValue"
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-383 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-385 PrivateNotchedOutline-legendNotched-386"
+          >
+            <span>
+              password *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-filled Mui-required"
+      >
+        The password has to be 9 characters long, has to contain at least one number, one lowercase and on uppercase character.
+      </p>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      data-testid="components/constants/buttonPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        submit
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </form>
+</DocumentFragment>
+`;

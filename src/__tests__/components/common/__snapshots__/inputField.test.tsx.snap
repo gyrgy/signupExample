@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test input field component tests if matches with snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+    data-testid="components/constants/form"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-error Mui-error Mui-required Mui-required"
+      data-shrink="false"
+    >
+      label
+      <span
+        class="MuiFormLabel-asterisk MuiInputLabel-asterisk Mui-error Mui-error"
+      >
+         *
+      </span>
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="true"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        name="name"
+        required=""
+        type="number"
+        value="text value"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-385 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-387"
+        >
+          <span>
+            label *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+    <p
+      class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error Mui-required"
+    >
+      error helper text
+    </p>
+  </div>
+</DocumentFragment>
+`;
